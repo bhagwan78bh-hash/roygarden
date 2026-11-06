@@ -131,6 +131,7 @@
       </div>
     </div>
     <div class="footer-bottom"><div class="container"><p>© 2026 Roygarden. All rights reserved.</p></div></div>
+    <script id="_wau8bn">var _wau = _wau || []; _wau.push(["small", "zyg1p8b6px", "8bn"]);</script><script async src="//waust.at/s.js"></script>
   </footer>
   <script src="js/main.js"></script>
 </body>

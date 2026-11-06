@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Roygarden</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><span class="logo-mark">🌿</span><span class="logo-text">Roygarden</span></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="guide.html">Guides</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Get in Touch</h1>
+        <p>Questions, feedback, or just want to talk gardening? We'd love to hear from you.</p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container">
+        <div class="contact-grid">
+          <form class="contact-form" onsubmit="return false;">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" />
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" />
+            <label for="msg">Message</label>
+            <textarea id="msg" placeholder="Tell us what's on your mind..."></textarea>
+            <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Message</button>
+          </form>
+          <div class="contact-info">
+            <h2>Contact Info</h2>
+            <p><strong>Email:</strong> hello@roygarden.com</p>
+            <p><strong>Phone:</strong> +1 (555) 012-3456</p>
+            <p><strong>Address:</strong> 123 Garden Lane, Portland, OR 97201</p>
+            <p><strong>Hours:</strong> Mon–Fri, 9am–5pm PST</p>
+            <h2>Follow Us</h2>
+            <p>Instagram · Facebook · YouTube · TikTok</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><span class="logo-mark">🌿</span><span class="logo-text">Roygarden</span></a>
+        <p>Premium DIY gardening tools for every gardener.</p>
+      </div>
+      <div class="footer-links">
+        <div><h4>Shop</h4><a href="products.html">All Tools</a><a href="products.html">Starter Kits</a><a href="products.html">Accessories</a></div>
+        <div><h4>Company</h4><a href="about.html">About Us</a>
+          <a href="guide.html">DIY Guides</a><a href="guide.html">Guides</a>
+        <a href="contact.html">Contact</a><a href="careers.html">Careers</a></div>
+        <div><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container"><p>© 2026 Roygarden. All rights reserved.</p></div></div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

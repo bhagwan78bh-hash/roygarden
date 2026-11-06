@@ -12,9 +12,9 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="logo"><span class="logo-mark">🌿</span><span class="logo-text">Roygarden</span></a>
+      <a href="index.php" class="logo"><span class="logo-mark">🌿</span><span class="logo-text">Roygarden</span></a>
       <nav class="nav">
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
         <a href="products.html">Products</a>
         <a href="about.html">About</a>
         <a href="guide.html">Guides</a>
@@ -120,7 +120,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <a href="index.html" class="logo"><span class="logo-mark">🌿</span><span class="logo-text">Roygarden</span></a>
+        <a href="index.php" class="logo"><span class="logo-mark">🌿</span><span class="logo-text">Roygarden</span></a>
         <p>Premium DIY gardening tools for every gardener.</p>
       </div>
       <div class="footer-links">
